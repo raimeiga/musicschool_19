@@ -700,6 +700,9 @@ img {
   }
 }
 
+.p-top-voice-list__img {
+  width: 100%;
+}
 @media only screen and (max-width: 767px) {
   .p-top-voice-list__img {
     width: 100%;
@@ -717,6 +720,8 @@ img {
 @media only screen and (max-width: 767px) {
   .p-top-voice-list__head {
     padding-block: 2.7rem 1rem;
+    font-size: 2.2rem;
+    line-height: 1.5;
   }
 }
 
@@ -728,6 +733,12 @@ img {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+@media only screen and (max-width: 767px) {
+  .p-top-voice-list__text {
+    font-size: 1.8rem;
+    line-height: 1.6666666667;
+  }
 }
 
 .u-bg-red {
